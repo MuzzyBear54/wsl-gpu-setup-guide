@@ -1,8 +1,8 @@
 # Installing CUDA-accelerated Smilei in WSL2 (Ubuntu 22.04)
 
 This document is written for **Windows 10/11 + WSL2 + Ubuntu 22.04**, targeting:
-- **GTX 1060 (Pascal)** and
-- **RTX 4070 Ti (Ada/Lovelace)**
+- **GTX 1060/any 10 series (Pascal)** and
+- **RTX 4070 Ti/any 40 series (Ada/Lovelace)**
 
 It should generalize to similar GPUs with minor changes.
 
