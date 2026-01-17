@@ -1,10 +1,10 @@
 # wsl-gpu-setup-guide
 
-Professional, battle-tested notes for building **CUDA-accelerated scientific codes** inside **WSL2 (Ubuntu 22.04)** on Windows 10/11 — with a focus on **NVIDIA HPC SDK**, MPI, HDF5, and compiling **Smilei (PIC)** for **single-GPU** runs.
+Battle-tested notes, learned through extensive trial and error, for building **CUDA-accelerated scientific codes** inside **WSL2 (Ubuntu 22.04)** on Windows 10/11 — with a focus on **NVIDIA HPC SDK**, MPI, HDF5, and compiling **Smilei (PIC)** for **single-GPU** runs.
 
 This guide consolidates fixes/workarounds discovered during real troubleshooting on:
-- **Pascal** (e.g., GTX 1060 / `sm_61`)
-- **Lovelace/Ada** (e.g., RTX 4070 Ti / `sm_89`)
+- **Pascal** (e.g., GTX 10 seroes / `sm_61`)
+- **Lovelace/Ada** (e.g., RTX 40 series / `sm_89`)
 
 > ⚠️ Note: As of the original testing, this setup does **not** cover NVIDIA **Blackwell** (RTX 50 series).
 
