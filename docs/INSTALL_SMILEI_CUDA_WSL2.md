@@ -223,11 +223,3 @@ Then run:
 ```bash
 mpirun -np 1 ./smilei your_script.py
 ```
-
----
-
-## Notes / performance
-
-- Older GPUs under WSL2 can suffer if the run is heavily patch-decomposed.
-- If you hit performance issues, consider using fewer patches (e.g., 1D single patch) for this environment.
-
